@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+	<link rel="stylesheet" type="text/css" href="checkout2.css">
+</head>
+<body>
+	<header><strong>WELCOME TO THE CHECKOUT PAGE</strong></header>
+		<h2>Billing Information: </h2>
+		<form>
+			<autocomplete="off">
+        <label for="name">Full Names:    </label>
+        <input type="text" id="name" placeholder="Your name...">
+		<autocomplete="off">
+      <label for="email">E-mail address: </label>
+      <input type="text" id="email address" placeholder="Your e-mail...">
+					<autocomplete="off">
+            <label for="address"> Street Address: </label>
+            <input type="text" id="address" placeholder="Street address...">
+					<autocomplete="off">
+            <label for="address"> City: </label>
+            <input type="text" name="street" id="street address">
+						<autocomplete="off">
+            <label for="address"> State: </label>
+            <input type="text" name="state" id="state">
+								<autocomplete="off"><label for="address"> Postal Code: </label>
+            <input type="text" name="postal code" id="postal code">
+		</form>
+		<p>Billing address same as shipping address? </p>
+		<p><input type="radio" name="answer" value="Yes" /> Yes</p>
+		<p>
+			<input type="radio" name="answer" value="No" /> No
+		</p>
+		<h2>Payment Information</h2>
+		
+					<p align="left">Card type:<select name="card type" size="1">
+					 <option value="Visa">Visa</option>
+				     <option value="Mastercard">Mastercard</option>
+				     <option value="paypal">Paypal</option>
+					 <option value="Other">Other</option></select>
+					    
+					    <label for="name on card">Name on card:</label>
+            <input type="text"></>
+            <label for="card no.">Card number:</label>
+      <input type="text">
+				    <label for="expiry date">Expiration Date: *</label>
+      <input type="text"><br />
+      <i>formatted as mm/yy</i><br />
+				    <label for="secret code">CVV:</label>
+      <input type="text">
+      
+					<input type="submit"
+     value="Validate Payment">
+    </body>
+</html>
